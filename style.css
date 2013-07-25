@@ -1,0 +1,105 @@
+/*
+Theme Name:     Blackbird Child
+Theme URI:      http://cmhss-np.org/
+Description:    A child theme to modify the main Blackbird theme
+Author:         Ryan Lindgren
+Author URI:     http://ryanlindgren.com
+Template:       blackbird                             
+Version:        0.1.0
+*/
+
+@import url("../blackbird/style.css");
+
+/* top search 
+=======================================*/
+.top-search {
+    margin:0;
+    padding:0;
+    max-width:100%;
+    height:30px;
+    margin-bottom:0px;
+    width: 180px;
+}
+.top-search .searchform {
+    background-color:#fff;
+    width:162px;
+    height:30px;
+    border:none;
+    position:relative;
+    float:right;
+    margin-right:15px;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.top-search .searchform input[type="text"] {
+    width:150px;
+    height:29px;
+    background:#fff;
+    border:none;
+    padding:1px 0px 0px 7px;
+    color:#343434;
+    font-size: 110%;
+}
+.top-search .searchform input[type="submit"] {
+    position:absolute;
+    right:6px;
+    top:7px;
+    background:url(images/search.png) no-repeat;
+    width:18px;
+    height:18px;
+    border:none;
+    cursor:pointer;
+}
+
+form.searchform div input#search {
+    font-size: 110%;
+}
+
+.feature-content-inner .circle {
+    width: 165px;
+    height: 165px;
+    display: block;
+    border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -khtml-border-radius: 50% 50%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    background: #f3cc0c;
+    margin-left: 35px;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.feature-content-inner .circle:hover {
+    width: 175px;
+    height: 175px;
+    opacity: 1;
+    margin-top:;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.feature-content-inner .circle img {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+    margin-top: 7px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.feature-content-inner .circle img:hover {
+    width: 160px;
+    height: 160px;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
